@@ -2,26 +2,14 @@
 
 int main() {
 
-	int a;
+	float tuoi = 0;
 
-	printf("Nhập vào số nguyên: ");
+	printf("Bạn bao nhiêu tuổi? Nhập vào đây: \n");
 	fflush(stdout);
 
-	scanf("%d", &a);
+	scanf("%f", &tuoi);
 
-	if (a == 10) {
-		printf("Điểm của bạn là %d.\n Bạn thật xuất sắc!", a);
-	} else if (a <= 9 && a >= 8) {
-		printf("Điểm của bạn là %d.\n Bạn học rất tốt!", a);
-	} else if (a <= 7 && a >= 5) {
-		printf("Điểm của bạn là %d.\n Bạn học tạm được!", a);
-	} else if (a <= 4 && a >= 1) {
-		printf("Điểm của bạn là %d.\n Bạn học kém!", a);
-	} else if (a == 0) {
-		printf("Điểm của bạn là %d.\n Bó tay với bạn!", a);
-	}
-
-	printf("\nHave a good day!");
+	printf("Oh tuổi của bạn là %f!\n", tuoi);
 
 	return 0;
 
