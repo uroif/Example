@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main_Test1() {
 
 	float tuoi = 0;
 
