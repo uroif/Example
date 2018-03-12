@@ -2,8 +2,8 @@
 #include<conio.h>
 #include<stdio.h>
 #include<string.h>
-int main_Calc4()
-{
+
+int main_Calc4() {
     float a,b,c,d;
     printf("Nhap vao 3 so a, b, c: ");
     scanf("%f%f%f",&a,&b,&c);
@@ -30,4 +30,5 @@ int main_Calc4()
             printf("Phuong trinh co 2 nghiem phan biet la: %f,%f",(-b+sqrt(d))/(2*a),(-b-sqrt(d))/(2*a));
     }
 
+    return 0;
 }
