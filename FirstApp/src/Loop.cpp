@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main_Loop() {
 
 	int i, n;
 	float s = 0.0;
