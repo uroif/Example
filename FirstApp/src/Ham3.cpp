@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "functions_min.h"
 
-int main() {
+int main_Ham3() {
 
 	int a, b, so_min;
 
