@@ -1,17 +1,19 @@
 #include <stdio.h>
 int main() {
 
-	int num, count, sum = 0;
+	int a, b, c;
 
-	printf("Enter the term: \n");
+	printf("Enter 3 numbers: \n");
 	fflush(stdout);
-	scanf("%d", &num);
+	scanf("%d%d%d", &a, &b, &c);
 
-	for (count = 1; count <= num; count++) {
-		sum += count;
+	if(a > b && a > c) {
+		printf("Số lớn nhất là %d", a);
+	} else if(b > a && b > c) {
+		printf("Số lớn nhất là %d", b);
+	} else {
+		printf("Số lớn nhất %d", c);
 	}
-
-	printf("Sum of %d is %d", num, sum);
 
 	return 0;
 }
